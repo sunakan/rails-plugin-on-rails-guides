@@ -15,3 +15,11 @@ link:https://railsguides.jp/plugins.html[Rails プラグイン作成入門 on RA
 ----
 $ make up
 ----
+
+== Pluginのテストを実行するには
+
+----
+$ make bash #dockerでbash
+$ cd yaffle
+$ bin/test
+----
