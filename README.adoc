@@ -15,6 +15,7 @@ link:https://railsguides.jp/plugins.html[Rails プラグイン作成入門 on RA
 
 * yaffleディレクトリ以下
 * rootは違う(間違えた)
+* pluginをnewする時 `plugin new yaffle` ではなく、 `plugin new .` だったかも
 
 == 実行方法
 
