@@ -6,6 +6,6 @@ class ActsAsYaffleTest < ActiveSupport::TestCase
   end
 
   def test_a_wickwalls_yaffle_text_field_should_be_last_tweet
-    assert_equal "last_tweet", Hickwall.yaffle_text_field
+    assert_equal "last_tweet", Wickwall.yaffle_text_field
   end
 end
