@@ -1,14 +1,20 @@
 = Rails プラグイン作成入門 on RAILS GUIDES
 
+image:https://img.shields.io/badge/license-MIT-blue.svg[MIT, link=LICENSE]
+
+link:https://railsguides.jp/plugins.html[Rails プラグイン作成入門 on RAILS GUIDES]
+
 [cols="1,1", options="autowidth"]
 |===
 |Ruby|2.6.3
 |Rails|5.2.3
 |===
 
-image:https://img.shields.io/badge/license-MIT-blue.svg[MIT, link=LICENSE]
 
-link:https://railsguides.jp/plugins.html[Rails プラグイン作成入門 on RAILS GUIDES]
+== プラグインの場所
+
+* yaffleディレクトリ以下
+* rootは違う(間違えた)
 
 == 実行方法
 
@@ -21,5 +27,6 @@ $ make up
 ----
 $ make bash #dockerでbash
 $ cd yaffle
+$ bundle install ../vendor/bundle
 $ bin/test
 ----

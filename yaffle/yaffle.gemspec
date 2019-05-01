@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.name        = "yaffle"
   spec.version     = Yaffle::VERSION
   spec.authors     = ["sunakan"]
-  spec.email       = ["sunakan@gmail.com"]
+  spec.email       = ["sunakan03@gmail.com"]
   spec.homepage    = "https://github.com/sunakan/rails-plugin-on-rails-guides"
   spec.summary     = "練習"
   spec.description = "練習"
