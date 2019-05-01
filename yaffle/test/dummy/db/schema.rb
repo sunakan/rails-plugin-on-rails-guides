@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 2019_05_01_031705) do
 
   create_table "wickwalls", force: :cascade do |t|
     t.string "last_squawk"
+    t.string "last_tweet"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

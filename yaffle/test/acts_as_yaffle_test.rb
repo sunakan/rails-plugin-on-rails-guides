@@ -12,12 +12,12 @@ class ActsAsYaffleTest < ActiveSupport::TestCase
   def test_hickwalls_squawk_should_populate_last_squawk
     hickwall = Hickwall.new
     hickwall.squawk("Hello World")
-    assert_equal "squawk! hello World", hickwall.last_squawk
+    assert_equal "squawk! Hello World", hickwall.last_squawk
   end
 
-  def test_hickwalls_squawk_should_populate_last_tweet
+  def test_wickwalls_squawk_should_populate_last_tweet
     wickwall = Wickwall.new
     wickwall.squawk("Hello World")
-    assert_equal "squawk! hello World", wickwall.last_tweet
+    assert_equal "squawk! Hello World", wickwall.last_tweet
   end
 end
