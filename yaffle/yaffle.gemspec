@@ -7,11 +7,11 @@ require "yaffle/version"
 Gem::Specification.new do |spec|
   spec.name        = "yaffle"
   spec.version     = Yaffle::VERSION
-  spec.authors     = ["TODO: Write your name"]
-  spec.email       = ["TODO: Write your email address"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of Yaffle."
-  spec.description = "TODO: Description of Yaffle."
+  spec.authors     = ["sunakan"]
+  spec.email       = ["sunakan@gmail.com"]
+  spec.homepage    = "https://github.com/sunakan/rails-plugin-on-rails-guides"
+  spec.summary     = "練習"
+  spec.description = "練習"
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -26,6 +26,5 @@ Gem::Specification.new do |spec|
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   spec.add_dependency "rails", "~> 5.2.3"
-
-  spec.add_development_dependency "sqlite3"
+  spec.add_dependency "pg", "~> 1.1.4"
 end
